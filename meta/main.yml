@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Michael Sheinberg
+  description: Role for downloading and laying out docker-machine
+  company: Freedom of Press Foundation
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  galaxy_tags:
+    - docker
+
+dependencies:
+  - role: marklee77.docker
