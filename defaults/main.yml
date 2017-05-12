@@ -11,9 +11,11 @@ docker_machine_hashes:
     Linux-aarch64: 91a596e2603fe6f304f809da18011ba1119534aaa2f68d6f26e0b984e2c9ff09
     Darwin-x86_64: 6237c781100adde442419742bae9b0d6816939f95f049690cfef0a34b6f81f97
 
+# Pinning a specific version of the bash completion script, so we can validate checksum.
+# docker_machine_bash_url: https://raw.githubusercontent.com/docker/machine/master/contrib/completion/bash/docker-machine.bash
+docker_machine_bash_url: https://raw.githubusercontent.com/docker/machine/9e92ef1af47bda3bdc95faf3b7c18ae00b68d16d/contrib/completion/bash/docker-machine.bash
 
-docker_machine_bash_url: https://raw.githubusercontent.com/docker/machine/master/contrib/completion/bash/docker-machine.bash
 # sha256 hash of the bash completion script
-docker_machine_bash_hash: 63ec12777671b90340ebe1e692b9adf84fb651e5c752eaf37119fca3b356991f
+docker_machine_bash_hash: 54aec6f999a4884af53e2608cb5a3ebb0a5f851157d51370d58d7ecc10dcb43d
 
 docker_machine_binary: /usr/local/bin/docker-machine
